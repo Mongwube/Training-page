@@ -1,0 +1,111 @@
+/* font family Graphik */
+
+
+/* Header CSS style Sheet. */
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* width: ; */
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    margin-right: 5%;
+    width:100%;
+}
+.thumb{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.thumb a  img{
+    background-color: #e7332b;
+    padding: 1%;
+    border-radius:100%;
+    position: absolute;
+    width: 5%;
+    /* align-items: center; */
+
+}
+.text{
+    background-color: #e7332b;
+    color: rgb(241, 237, 237);
+    position: initial;
+    border-radius: 10%;
+    padding: 5% 20%;
+}
+/* Home section of te intenship page.*/
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.home h3{
+    color: #1b1a20;
+    font-family: Graphik;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.home p{
+    color: #1b1a20;
+    font-size: 18px;
+}
+.home-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+}
+.home-text button{
+    border: none;
+    background-color: #e7332b;
+    color: #fff;
+    border-radius: 71px;
+    padding: 2% 3%;
+}
+.enroll-img{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+}
+.enroll-img1{
+    width: 15%;
+}
+.home-lady-img{
+    width: 40%;
+}
+.home-male-img{
+    width: 35%;
+}
+.home-img{
+    width: 100%;
+}
+.home-line{
+    width: 20%;
+}
+span{
+    color: #e7332b;
+}
+@media screen and (max-width:800px) {
+    .home{
+        flex-direction: column;
+    }
+    .home-text{
+        width: fit-content;
+    }
+    .home-lady-img{
+        width: fit-content;
+    }
+    .home-male-img{
+        width: fit-content;
+    }
+}
